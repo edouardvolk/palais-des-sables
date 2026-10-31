@@ -1,0 +1,167 @@
+<!--meta
+title: Disponibilités & réservation · Le Palais des Sables
+description: Consultez les disponibilités du Palais des Sables et adressez votre demande de réservation : riad entier jusqu'à 14 hôtes, trois nuits minimum, aucun paiement en ligne.
+page: reserver
+header: solid
+scripts: booking
+-->
+<section class="page-intro">
+  <div class="container page-intro__grid">
+    <div>
+      <p class="eyebrow">Disponibilités &amp; réservation</p>
+      <h1 class="h1" style="margin-top:22px">Réserver <em>le palais</em></h1>
+    </div>
+    <p class="text-muted">Le riad se reçoit en exclusivité, pour trois nuits au moins. Choisissez vos dates&nbsp;: nous confirmons la disponibilité et préparons avec vous chaque détail, sans aucun paiement en ligne.</p>
+  </div>
+</section>
+
+<section class="container">
+  <ol class="steps" data-steps aria-label="Étapes de la demande">
+    <li class="is-current" data-step-label="1"><span class="num">01</span>Dates &amp; voyageurs</li>
+    <li data-step-label="2"><span class="num">02</span>Votre séjour</li>
+    <li data-step-label="3"><span class="num">03</span>Coordonnées</li>
+  </ol>
+
+  <div class="booking" data-booking>
+    <div class="booking__main">
+      <!-- Étape 1 : dates -->
+      <div class="panel" data-step="1">
+        <div class="panel__head">
+          <h2 class="h3">Choisissez vos dates</h2>
+          <span class="source-badge" data-source><i></i>Calendrier en cours de chargement</span>
+        </div>
+        <div data-calendar><p class="cal__loading">Chargement des disponibilités…</p></div>
+        <div class="panel__actions">
+          <button type="button" class="back-link" data-clear-dates>Effacer les dates</button>
+          <button type="button" class="btn btn--clay" data-go="2" disabled><span>Continuer</span><i class="arrow"></i></button>
+        </div>
+      </div>
+
+      <!-- Étape 2 : options -->
+      <form class="panel form" data-step="2" hidden novalidate>
+        <div class="panel__head"><h2 class="h3">Composez votre séjour</h2><span class="form__note">Tout reste modifiable par la suite.</span></div>
+        <fieldset style="border:0;padding:0;margin:0">
+          <legend class="field__label" style="margin-bottom:14px">Options facturées avec la location</legend>
+          <div class="options" data-options></div>
+        </fieldset>
+        <fieldset style="border:0;padding:0;margin:0">
+          <legend class="field__label" style="margin-bottom:14px">Services réglés sur place</legend>
+          <div class="options">
+            <label class="option"><input type="checkbox" name="board"><span><strong>Pension complète</strong><small>Petit-déjeuner, déjeuner, goûter et dîner préparés par la cuisinière</small></span><span class="option__price">15&nbsp;€<small>/ jour / pers.</small></span></label>
+          </div>
+        </fieldset>
+        <div class="form__row">
+          <div class="field"><label for="b-transfer">Transfert aéroport</label>
+            <select id="b-transfer" name="transfer"><option value="">Pas de transfert</option><option value="agadir">Aéroport d'Agadir (40 min)</option><option value="marrakech">Aéroport de Marrakech (3 h)</option></select></div>
+          <div class="field"><label for="b-arrival">Heure d'arrivée estimée</label>
+            <select id="b-arrival" name="arrival"><option value="">Je ne sais pas encore</option><option>Matinée</option><option>Début d'après-midi</option><option>Fin d'après-midi</option><option>Soirée</option><option>Nuit (après 20 h)</option></select></div>
+        </div>
+        <div class="form__row">
+          <div class="field"><label for="b-occasion">L'occasion</label>
+            <select id="b-occasion" name="occasion"><option value="">Simplement des vacances</option><option>Vacances en famille</option><option>Séjour entre amis</option><option>Anniversaire</option><option>Voyage de noces</option><option>Retraite bien-être</option><option>Séminaire ou événement</option></select></div>
+          <div class="field"><label for="b-lang">Langue de correspondance</label>
+            <select id="b-lang" name="lang"><option>Français</option><option>English</option></select></div>
+        </div>
+        <div class="field"><label for="b-wishes">Vos envies, vos questions</label><textarea id="b-wishes" name="wishes" placeholder="Allergies, soins, excursions, surprise à préparer…"></textarea></div>
+        <div class="panel__actions">
+          <button type="button" class="back-link" data-go="1">Modifier les dates</button>
+          <button type="button" class="btn btn--clay" data-go="3"><span>Continuer</span><i class="arrow"></i></button>
+        </div>
+      </form>
+
+      <!-- Étape 3 : coordonnées -->
+      <form class="panel form" data-step="3" hidden novalidate>
+        <div class="panel__head"><h2 class="h3">Vos coordonnées</h2><span class="form__note">Champs obligatoires *</span></div>
+        <div class="form__row">
+          <div class="field"><label for="b-first">Prénom *</label><input id="b-first" name="firstName" autocomplete="given-name" required><p class="field__error"></p></div>
+          <div class="field"><label for="b-last">Nom *</label><input id="b-last" name="lastName" autocomplete="family-name" required><p class="field__error"></p></div>
+        </div>
+        <div class="form__row">
+          <div class="field"><label for="b-email">E-mail *</label><input id="b-email" name="email" type="email" autocomplete="email" required><p class="field__error"></p></div>
+          <div class="field"><label for="b-phone">Téléphone *</label><input id="b-phone" name="phone" type="tel" autocomplete="tel" required placeholder="+33 …"><p class="field__error"></p></div>
+        </div>
+        <div class="form__row">
+          <div class="field"><label for="b-country">Pays de résidence</label><input id="b-country" name="country" autocomplete="country-name" placeholder="France"></div>
+          <div class="field"><label for="b-source">Comment nous avez-vous connus&nbsp;?</label>
+            <select id="b-source" name="source"><option value="">—</option><option>Recommandation d'un proche</option><option>Airbnb</option><option>Tripadvisor</option><option>Presse</option><option>Recherche en ligne</option><option>Réseaux sociaux</option></select></div>
+        </div>
+        <label class="check"><input type="checkbox" name="consent" required><span>J'accepte que ces informations soient utilisées pour traiter ma demande. Elles ne sont jamais transmises à des tiers. *</span></label>
+        <div class="panel__actions">
+          <button type="button" class="back-link" data-go="2">Retour</button>
+          <button type="submit" class="btn btn--clay" data-submit><span>Envoyer la demande</span></button>
+        </div>
+        <p class="form__note">Cette demande ne vous engage pas&nbsp;: aucun paiement n'est demandé à ce stade.</p>
+      </form>
+
+      <!-- Étape 4 : confirmation -->
+      <div class="panel" data-step="4" hidden tabindex="-1">
+        <div class="confirm" data-confirm></div>
+      </div>
+    </div>
+
+    <aside class="summary" aria-label="Récapitulatif">
+      <div class="media summary__media">{% img patio-nuit-2 sizes="400px" alt="" %}</div>
+      <div class="summary__body">
+        <div>
+          <p class="eyebrow">Riad entier &middot; jusqu'à 14 hôtes</p>
+          <p class="summary__title" style="margin-top:10px">Le Palais des Sables</p>
+        </div>
+        <div class="summary__dates">
+          <div><span class="summary__label">Arrivée</span><span class="summary__value is-empty" data-sum-start>—</span></div>
+          <div><span class="summary__label">Départ</span><span class="summary__value is-empty" data-sum-end>—</span></div>
+        </div>
+        <div class="guests" data-guests>
+          <div class="guest-row"><div><strong>Adultes</strong><small>13 ans et plus</small></div><div class="stepper" data-stepper="adults"><button type="button" data-step="-1" aria-label="Un adulte de moins"></button><output>2</output><button type="button" data-step="1" aria-label="Un adulte de plus"></button></div></div>
+          <div class="guest-row"><div><strong>Enfants</strong><small>De 2 à 12 ans</small></div><div class="stepper" data-stepper="children"><button type="button" data-step="-1" aria-label="Un enfant de moins"></button><output>0</output><button type="button" data-step="1" aria-label="Un enfant de plus"></button></div></div>
+          <div class="guest-row"><div><strong>Bébés</strong><small>Deux lits bébé disponibles</small></div><div class="stepper" data-stepper="babies"><button type="button" data-step="-1" aria-label="Un bébé de moins"></button><output>0</output><button type="button" data-step="1" aria-label="Un bébé de plus"></button></div></div>
+        </div>
+        <div data-quote aria-live="polite"></div>
+        <ul class="reassure">
+          <li>Aucun paiement en ligne</li>
+          <li>Gouvernante, cuisinière et gardien inclus</li>
+          <li>Acompte de 50&nbsp;% à la confirmation</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section section--sand" id="tarifs">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Tarifs &amp; conditions</p>
+      <h2 class="h2" data-reveal>La maison entière, <em>tout compris</em></h2>
+    </div>
+    <div class="rates">
+      <div data-reveal>
+        <table class="rate-table">
+          <caption class="eyebrow eyebrow--muted">Par nuit &middot; jusqu'à 14 hôtes</caption>
+          <tbody>
+            <tr><th scope="row">Toute l'année</th><td>380&nbsp;€<small>/ nuit</small></td></tr>
+            <tr><th scope="row">Juillet &amp; août</th><td>420&nbsp;€<small>/ nuit</small></td></tr>
+            <tr><th scope="row">Noël, Pâques &amp; Toussaint</th><td>560&nbsp;€<small>/ nuit</small></td></tr>
+          </tbody>
+        </table>
+        <ul class="reassure" style="margin-top:32px;font-size:14.5px">
+          <li>Le tarif comprend le service à plein temps d'une gouvernante, d'une femme de chambre, d'une cuisinière et d'un gardien, ainsi que tout le linge de maison.</li>
+          <li>Séjour minimum de trois nuits. Arrivée à partir de 15&nbsp;h, départ avant 11&nbsp;h.</li>
+          <li>Acompte de 50&nbsp;% à la réservation&nbsp;; solde par virement un mois avant l'arrivée, ou sur place le jour de l'arrivée.</li>
+          <li>Une caution est versée à l'arrivée et restituée le jour du départ.</li>
+        </ul>
+      </div>
+      <div data-reveal style="--d:.1s">
+        <table class="rate-table">
+          <caption class="eyebrow eyebrow--muted">Options</caption>
+          <tbody>
+            <tr><th scope="row">Piscine chauffée</th><td>300&nbsp;€<small>/ sem.</small></td></tr>
+            <tr><th scope="row">Climatisation chaud &amp; froid</th><td>300&nbsp;€<small>/ sem.</small></td></tr>
+            <tr><th scope="row">Bois pour les cinq cheminées</th><td>70&nbsp;€<small>/ sem.</small></td></tr>
+            <tr><th scope="row">Pension complète</th><td>15&nbsp;€<small>/ j / pers.</small></td></tr>
+            <tr><th scope="row">Transfert Agadir, 1 à 4 pers.</th><td>60&nbsp;€<small>/ trajet</small></td></tr>
+          </tbody>
+        </table>
+        <p class="form__note" style="margin-top:20px">Disponibilités synchronisées avec Airbnb. Les dates affichées dans cette version de démonstration sont fictives.</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="menu-toggle__lines" aria-hidden="true"><i></i><i></i></span>
+      <span class="menu-toggle__label">Menu</span>
+    </button>
+    <nav class="site-nav site-nav--left" aria-label="Navigation principale">
+      <a href="le-riad.html"{% nav riad %}>Le Riad</a>
+      <a href="chambres.html"{% nav chambres %}>Les Chambres</a>
+      <a href="experiences.html"{% nav experiences %}>Expériences</a>
+    </nav>
+    <a class="brand" href="index.html" aria-label="Le Palais des Sables, accueil">
+      <span class="brand__name">Le Palais des Sables</span>
+      <span class="brand__place">Taroudant &middot; Maroc</span>
+    </a>
+    <nav class="site-nav site-nav--right" aria-label="Contact et réservation">
+      <a href="contact.html"{% nav contact %}>Contact</a>
+      <a class="btn btn--header" href="reserver.html"{% nav reserver %}><span>Réserver</span></a>
+    </nav>
+  </div>
+</header>

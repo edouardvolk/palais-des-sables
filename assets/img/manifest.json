@@ -1,0 +1,755 @@
+{
+ "piscine-remparts": {
+  "w": 2000,
+  "h": 1101,
+  "sizes": [
+   720,
+   2000
+  ]
+ },
+ "patio-nuit": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "piscine-jardin": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "patio-piscine": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "facade-nuit": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "tente-berbere": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "galerie-table": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "galerie-arcades": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "piscine-vue": {
+  "w": 911,
+  "h": 683,
+  "sizes": [
+   720,
+   911
+  ]
+ },
+ "bassin-nuit": {
+  "w": 683,
+  "h": 683,
+  "sizes": [
+   683
+  ]
+ },
+ "patio-nuit-2": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "patio-nuit-3": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "bassin-detail": {
+  "w": 1023,
+  "h": 683,
+  "sizes": [
+   720,
+   1023
+  ]
+ },
+ "bassin-porte": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "jardin": {
+  "w": 1023,
+  "h": 683,
+  "sizes": [
+   720,
+   1023
+  ]
+ },
+ "piscine-remparts-2": {
+  "w": 1023,
+  "h": 683,
+  "sizes": [
+   720,
+   1023
+  ]
+ },
+ "palmier-remparts": {
+  "w": 512,
+  "h": 683,
+  "sizes": [
+   512
+  ]
+ },
+ "merlons": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "terrasse-panorama": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "terrasse-remparts": {
+  "w": 1023,
+  "h": 683,
+  "sizes": [
+   720,
+   1023
+  ]
+ },
+ "terrasse-haute": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "terrasse-vue-bassin": {
+  "w": 456,
+  "h": 683,
+  "sizes": [
+   456
+  ]
+ },
+ "terrasse-plantes": {
+  "w": 1023,
+  "h": 683,
+  "sizes": [
+   720,
+   1023
+  ]
+ },
+ "terrasse-lanternes": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "terrasse-claustra": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "terrasse-jardin": {
+  "w": 512,
+  "h": 683,
+  "sizes": [
+   512
+  ]
+ },
+ "tente-terrasse": {
+  "w": 911,
+  "h": 683,
+  "sizes": [
+   720,
+   911
+  ]
+ },
+ "patio-fleuri": {
+  "w": 668,
+  "h": 1000,
+  "sizes": [
+   668
+  ]
+ },
+ "piscine-plongee": {
+  "w": 668,
+  "h": 1000,
+  "sizes": [
+   668
+  ]
+ },
+ "terrasse-nuit": {
+  "w": 1000,
+  "h": 668,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "piscine-table": {
+  "w": 1000,
+  "h": 668,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "bassin-lanterne": {
+  "w": 1000,
+  "h": 668,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "terrasse-merlons": {
+  "w": 1000,
+  "h": 668,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "terrasse-ruelle": {
+  "w": 1000,
+  "h": 668,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "salon-cheminee": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "salon-panorama": {
+  "w": 1200,
+  "h": 592,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "salon-lanterne": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "salon-portraits": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "salon-feu": {
+  "w": 1023,
+  "h": 683,
+  "sizes": [
+   720,
+   1023
+  ]
+ },
+ "salon-jaune": {
+  "w": 1000,
+  "h": 668,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "salle-niches": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "salle-a-manger": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "salle-niches-nuit": {
+  "w": 1023,
+  "h": 683,
+  "sizes": [
+   720,
+   1023
+  ]
+ },
+ "salle-manger-jour": {
+  "w": 911,
+  "h": 683,
+  "sizes": [
+   720,
+   911
+  ]
+ },
+ "salle-table-rouge": {
+  "w": 1000,
+  "h": 670,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "escalier": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "vasque-cuivre": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "porte-nuit": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "moucharabieh": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "table-chandelles": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "diner-nuit": {
+  "w": 911,
+  "h": 683,
+  "sizes": [
+   720,
+   911
+  ]
+ },
+ "couloir": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "salon-rouge": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "salon-rouge-detail": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "salle-eau": {
+  "w": 512,
+  "h": 683,
+  "sizes": [
+   512
+  ]
+ },
+ "massage": {
+  "w": 512,
+  "h": 683,
+  "sizes": [
+   512
+  ]
+ },
+ "service-tajine": {
+  "w": 1023,
+  "h": 683,
+  "sizes": [
+   720,
+   1023
+  ]
+ },
+ "poisson-feu": {
+  "w": 512,
+  "h": 683,
+  "sizes": [
+   512
+  ]
+ },
+ "the-menthe": {
+  "w": 1023,
+  "h": 683,
+  "sizes": [
+   720,
+   1023
+  ]
+ },
+ "velos": {
+  "w": 911,
+  "h": 683,
+  "sizes": [
+   720,
+   911
+  ]
+ },
+ "tortue": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "tortue-bassin": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "couloir-ambre": {
+  "w": 1000,
+  "h": 668,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "rideau-terrasse": {
+  "w": 1000,
+  "h": 667,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "chambre-ambre": {
+  "w": 1000,
+  "h": 668,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "kasbah-lit": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "kasbah-lit-2": {
+  "w": 736,
+  "h": 1000,
+  "sizes": [
+   720,
+   736
+  ]
+ },
+ "bounouna-lit": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "bounouna-portrait": {
+  "w": 667,
+  "h": 1000,
+  "sizes": [
+   667
+  ]
+ },
+ "bounouna-salon": {
+  "w": 736,
+  "h": 1000,
+  "sizes": [
+   720,
+   736
+  ]
+ },
+ "bounouna-vasque": {
+  "w": 992,
+  "h": 736,
+  "sizes": [
+   720,
+   992
+  ]
+ },
+ "saadienne-lit": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "saadienne-lit-2": {
+  "w": 736,
+  "h": 1000,
+  "sizes": [
+   720,
+   736
+  ]
+ },
+ "saadienne-vasque": {
+  "w": 736,
+  "h": 1000,
+  "sizes": [
+   720,
+   736
+  ]
+ },
+ "saadienne-entree": {
+  "w": 736,
+  "h": 1000,
+  "sizes": [
+   720,
+   736
+  ]
+ },
+ "berberes-lit": {
+  "w": 1200,
+  "h": 800,
+  "sizes": [
+   720,
+   1200
+  ]
+ },
+ "berberes-lit-2": {
+  "w": 1000,
+  "h": 750,
+  "sizes": [
+   720,
+   1000
+  ]
+ },
+ "berberes-vasque": {
+  "w": 736,
+  "h": 1000,
+  "sizes": [
+   720,
+   736
+  ]
+ },
+ "atlas-lit": {
+  "w": 736,
+  "h": 1000,
+  "sizes": [
+   720,
+   736
+  ]
+ },
+ "atlas-lit-2": {
+  "w": 992,
+  "h": 736,
+  "sizes": [
+   720,
+   992
+  ]
+ },
+ "atlas-tableaux": {
+  "w": 736,
+  "h": 1000,
+  "sizes": [
+   720,
+   736
+  ]
+ },
+ "atlas-portes": {
+  "w": 992,
+  "h": 736,
+  "sizes": [
+   720,
+   992
+  ]
+ },
+ "atlas-douche": {
+  "w": 992,
+  "h": 736,
+  "sizes": [
+   720,
+   992
+  ]
+ },
+ "tiout-lit": {
+  "w": 730,
+  "h": 1000,
+  "sizes": [
+   720,
+   730
+  ]
+ },
+ "tiout-palmier": {
+  "w": 769,
+  "h": 1000,
+  "sizes": [
+   720,
+   769
+  ]
+ },
+ "tiout-douche": {
+  "w": 736,
+  "h": 1000,
+  "sizes": [
+   720,
+   736
+  ]
+ },
+ "remparts-vasque": {
+  "w": 978,
+  "h": 1000,
+  "sizes": [
+   720,
+   978
+  ]
+ },
+ "taroudant-remparts": {
+  "w": 911,
+  "h": 683,
+  "sizes": [
+   720,
+   911
+  ]
+ },
+ "remparts": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "souk": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "randonnee-atlas": {
+  "w": 1022,
+  "h": 683,
+  "sizes": [
+   720,
+   1022
+  ]
+ },
+ "oasis": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "palmeraie-tente": {
+  "w": 1024,
+  "h": 683,
+  "sizes": [
+   720,
+   1024
+  ]
+ },
+ "palmeraie-homme-bleu": {
+  "w": 512,
+  "h": 683,
+  "sizes": [
+   512
+  ]
+ },
+ "ane-palmeraie": {
+  "w": 511,
+  "h": 683,
+  "sizes": [
+   511
+  ]
+ },
+ "vallee-atlas": {
+  "w": 1280,
+  "h": 858,
+  "sizes": [
+   720,
+   1280
+  ]
+ },
+ "dromadaire": {
+  "w": 1280,
+  "h": 858,
+  "sizes": [
+   720,
+   1280
+  ]
+ }
+}

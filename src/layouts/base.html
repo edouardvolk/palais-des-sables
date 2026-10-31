@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ canonical }}">
+<meta name="theme-color" content="#F4EEE5">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Le Palais des Sables">
+<meta property="og:title" content="{{ title_attr }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:image" content="assets/img/og.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="assets/css/main.css">
+<script>document.documentElement.classList.add('js');setTimeout(function(){document.documentElement.classList.add('is-ready')},2600);try{if(sessionStorage.getItem('pds:visited'))document.documentElement.classList.add('is-returning')}catch(e){}</script>
+</head>
+<body data-page="{{ page }}" data-header="{{ header }}">
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<div class="curtain" aria-hidden="true"><span class="curtain__mark">{% include mark %}</span></div>
+{% include header %}
+{% include menu %}
+<main id="contenu">
+{{ content }}
+</main>
+{% include mobile-cta %}
+{% include footer %}
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/core.js" defer></script>
+<script src="assets/js/calendar.js" defer></script>
+<script src="assets/js/site.js" defer></script>
+{{ scripts }}
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!--meta
+title: Contact · Le Palais des Sables, Taroudant
+description: Une question, une demande particulière ? Écrivez-nous ou appelez Olivia Allard. Accès au Palais des Sables depuis Agadir et Marrakech, informations pratiques et questions fréquentes.
+page: contact
+header: solid
+scripts: contact
+-->
+<section class="page-intro">
+  <div class="container page-intro__grid">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h1 class="h1" style="margin-top:22px">Parlons de <em>votre séjour</em></h1>
+    </div>
+    <p class="text-muted">Une question, une demande particulière, un événement à organiser&nbsp;? Écrivez-nous&nbsp;: chaque message reçoit une réponse personnelle.</p>
+  </div>
+</section>
+
+<section class="container contact" style="padding-bottom:var(--section)">
+  <aside class="contact__aside">
+    <div class="contact__person">
+      <div class="media arch">{% img the-menthe sizes="112px" alt="" %}</div>
+      <div>
+        <p class="eyebrow">Votre interlocutrice</p>
+        <p class="h3" style="margin-top:8px">Olivia Allard</p>
+        <p class="text-muted" style="font-size:14px">Réservations &amp; séjours sur mesure</p>
+      </div>
+    </div>
+    <div class="contact__lines">
+      <a href="mailto:olivia.allard@gmail.com"><span>E-mail</span><span>olivia.allard@gmail.com</span></a>
+      <a href="tel:+33611043335"><span>Téléphone</span><span>+33 6 11 04 33 35</span></a>
+      <a href="https://wa.me/33611043335" target="_blank" rel="noopener"><span>WhatsApp</span><span>Écrire un message</span></a>
+      <p><span>Adresse</span><span>Médina de Taroudant<br>Souss Massa, Maroc</span></p>
+    </div>
+    <div class="media ratio-wide" data-reveal="mask">{% img bassin-porte sizes="(max-width: 980px) 92vw, 36vw" alt="Le petit bassin et la porte sculptée" %}</div>
+  </aside>
+
+  <div>
+    <form class="form" data-contact-form novalidate>
+      <fieldset class="field" style="border:0;padding:0;margin:0">
+        <legend class="field__label" style="margin-bottom:14px">Objet de votre message</legend>
+        <div class="subject-tabs">
+          <label><input type="radio" name="subject" value="Demande d'informations" checked><span>Informations</span></label>
+          <label><input type="radio" name="subject" value="Séjour sur mesure"><span>Séjour sur mesure</span></label>
+          <label><input type="radio" name="subject" value="Événement privé"><span>Événement privé</span></label>
+          <label><input type="radio" name="subject" value="Presse & partenariats"><span>Presse</span></label>
+        </div>
+      </fieldset>
+      <div class="form__row">
+        <div class="field"><label for="c-first">Prénom *</label><input id="c-first" name="firstName" autocomplete="given-name" required><p class="field__error"></p></div>
+        <div class="field"><label for="c-last">Nom *</label><input id="c-last" name="lastName" autocomplete="family-name" required><p class="field__error"></p></div>
+      </div>
+      <div class="form__row">
+        <div class="field"><label for="c-email">E-mail *</label><input id="c-email" name="email" type="email" autocomplete="email" required><p class="field__error"></p></div>
+        <div class="field"><label for="c-phone">Téléphone</label><input id="c-phone" name="phone" type="tel" autocomplete="tel" placeholder="Facultatif"></div>
+      </div>
+      <div class="form__row">
+        <div class="field field-wrap" data-dates-field>
+          <span class="field__label" id="c-dates-label">Dates souhaitées</span>
+          <button type="button" class="field__button is-empty" data-dates-trigger aria-labelledby="c-dates-label" aria-expanded="false" aria-haspopup="dialog">Choisir des dates</button>
+          <div class="popover popover--dates popover--single" data-pop role="dialog" aria-label="Choisir les dates du séjour">
+            <div data-cal></div>
+            <div class="popover__foot">
+              <button type="button" class="back-link" data-clear>Effacer</button>
+              <span class="popover__summary" data-summary></span>
+              <button type="button" class="btn btn--clay" data-apply><span>Valider</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="field"><label for="c-guests">Voyageurs</label>
+          <select id="c-guests" name="guests">
+            <option value="">Non défini</option>
+            <option>1 personne</option><option selected>2 personnes</option><option>3 à 4 personnes</option><option>5 à 8 personnes</option><option>9 à 14 personnes</option><option>Plus de 14 (événement)</option>
+          </select>
+        </div>
+      </div>
+      <div class="field"><label for="c-message">Votre message *</label><textarea id="c-message" name="message" required placeholder="Dites-nous tout&nbsp;: vos envies, vos questions, l'occasion…"></textarea><p class="field__error"></p></div>
+      <label class="check"><input type="checkbox" name="consent" required><span>J'accepte que ces informations soient utilisées pour répondre à ma demande. Elles ne sont jamais transmises à des tiers. *</span></label>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:20px 32px">
+        <button type="submit" class="btn btn--clay" data-submit><span>Envoyer le message</span></button>
+        <p class="form__note">Réponse personnelle, en français ou en anglais.</p>
+      </div>
+    </form>
+    <div class="success" data-contact-success hidden tabindex="-1"></div>
+  </div>
+</section>
+
+<section class="section section--sand" id="acces">
+  <div class="container map">
+    <div data-reveal>
+      <svg viewBox="0 0 600 440" role="img" aria-labelledby="map-title">
+        <title id="map-title">Carte : Taroudant, dans la vallée du Souss, à 76 km de l'aéroport d'Agadir et 225 km de Marrakech</title>
+        <path class="map__sea" d="M0 0H57L66 40 70 79 60 130 52 180 50 221 70 240 94 258 88 285 81 307 70 335 57 363 40 395 24 440H0Z"/>
+        <path class="map__coast" d="M57 0 66 40 70 79 60 130 52 180 50 221 70 240 94 258 88 285 81 307 70 335 57 363 40 395 24 440"/>
+        <path class="map__ridge" d="M118 214C200 170 280 125 360 105S520 78 600 70"/>
+        <path class="map__ridge" d="M140 392C250 350 380 300 600 250"/>
+        <text class="map__label map__label--mount" transform="translate(440 70) rotate(-8)">HAUT ATLAS</text>
+        <text class="map__label map__label--mount" transform="translate(400 318) rotate(-13)">ANTI-ATLAS</text>
+        <text class="map__label map__label--sea" transform="translate(26 300) rotate(-82)">Océan Atlantique</text>
+        <text class="map__label map__label--sea" x="300" y="246" style="font-size:16px">vallée du Souss</text>
+        <path class="map__route" d="M94 258C140 262 180 252 214 247"/>
+        <path class="map__route" d="M358 60C340 120 270 190 214 247"/>
+        <g class="map__city"><circle cx="94" cy="258" r="3.5"/><text x="104" y="280">Agadir</text></g>
+        <g class="map__city"><circle cx="358" cy="60" r="3.5"/><text x="368" y="64">Marrakech</text></g>
+        <g class="map__city"><circle cx="70" cy="79" r="3.5"/><text x="80" y="83">Essaouira</text></g>
+        <g class="map__city"><circle cx="534" cy="174" r="3.5"/><text x="470" y="198">Ouarzazate</text></g>
+        <g class="map__city"><circle cx="76" cy="372" r="3.5"/><text x="86" y="376">Tiznit</text></g>
+        <g class="map__home"><circle cx="214" cy="247" r="6"/><circle cx="214" cy="247" r="6"/><text x="196" y="226">Taroudant</text></g>
+      </svg>
+    </div>
+    <div class="section-head" style="align-content:start">
+      <p class="eyebrow" data-reveal>Venir au Palais</p>
+      <h2 class="h2" data-reveal>À trois heures <em>de Paris</em></h2>
+      <div class="prose" data-reveal><p>L'aéroport d'Agadir, desservi par de nombreux vols directs, n'est qu'à 76&nbsp;km par une route à quatre voies&nbsp;: comptez quarante minutes. Marrakech est à 225&nbsp;km par l'autoroute. Nous organisons votre accueil à l'aéroport, de jour comme de nuit.</p></div>
+      <ul class="distances" data-reveal>
+        <li><span>Langues</span><span>Arabe, français, berbère</span></li>
+        <li><span>Formalités</span><span>Passeport en cours de validité</span></li>
+        <li><span>Monnaie</span><span>Dirham &middot; 1 MAD ≈ 0,10 €</span></li>
+        <li><span>Électricité</span><span>220 V</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid-12" style="row-gap:40px">
+    <div class="section-head" style="grid-column:1 / span 4;align-content:start">
+      <p class="eyebrow" data-reveal>Questions fréquentes</p>
+      <h2 class="h2" data-reveal>Bon <em>à savoir</em></h2>
+    </div>
+    <div class="faq" style="grid-column:6 / span 7" data-reveal>
+      <details><summary>Peut-on réserver une seule chambre&nbsp;?<i></i></summary><div class="faq__answer"><p>Non&nbsp;: le Palais des Sables se loue toujours en exclusivité. Nous ouvrons quatre chambres jusqu'à huit hôtes, et les sept chambres au-delà, jusqu'à quatorze.</p></div></details>
+      <details><summary>Qu'est-ce qui est compris dans le tarif&nbsp;?<i></i></summary><div class="faq__answer"><p>Le service à plein temps d'une gouvernante, d'une femme de chambre, d'une cuisinière et d'un gardien, ainsi que tout le linge de maison. La piscine chauffée, la climatisation, le bois des cheminées et les repas sont proposés en option.</p></div></details>
+      <details><summary>Comment se déroule la réservation&nbsp;?<i></i></summary><div class="faq__answer"><p>Vous adressez une demande depuis la page Disponibilités. Nous confirmons les dates, puis un acompte de 50&nbsp;% bloque le riad. Le solde se règle par virement un mois avant l'arrivée, ou sur place le jour de l'arrivée.</p></div></details>
+      <details><summary>Les repas sont-ils inclus&nbsp;?<i></i></summary><div class="faq__answer"><p>Les repas ne sont pas compris, mais la cuisinière prépare tout ce que vous souhaitez. En pension complète, comptez environ 15&nbsp;€ par jour et par personne, au coût réel des courses faites au marché.</p></div></details>
+      <details><summary>Le riad est-il adapté aux enfants&nbsp;?<i></i></summary><div class="faq__answer"><p>Tout à fait&nbsp;: deux lits bébé, un service de baby-sitting, un mini-golf, le ping-pong, les tortues du jardin… Le riad est également accessible aux personnes à mobilité réduite.</p></div></details>
+      <details><summary>Quelle est la meilleure saison&nbsp;?<i></i></summary><div class="faq__answer"><p>Toute l'année. L'hiver est ensoleillé et sans vent, avec des maximales autour de 22&nbsp;°C&nbsp;; au printemps et en automne, la douceur est idéale pour les excursions. L'été est chaud mais tempéré par le courant des Canaries.</p></div></details>
+    </div>
+  </div>
+</section>
